@@ -32,5 +32,6 @@ model.fit(X,y)
 House_price = model.Predict(final_value)
 
 with st.spinner('Predicting House Price'):
-  time.sleep()
+  time.sleep(3)
 st.write(house_price)
+
